@@ -13,6 +13,7 @@
 		F7EE730727D3B88F0065C7AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7EE730527D3B88F0065C7AC /* Main.storyboard */; };
 		F7EE730927D3B8910065C7AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7EE730827D3B8910065C7AC /* Assets.xcassets */; };
 		F7EE730C27D3B8910065C7AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7EE730A27D3B8910065C7AC /* LaunchScreen.storyboard */; };
+		F7EE731827D3E4FB0065C7AC /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EE731727D3E4FB0065C7AC /* WeatherManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		F7EE730827D3B8910065C7AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7EE730B27D3B8910065C7AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7EE730D27D3B8910065C7AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7EE731727D3E4FB0065C7AC /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		F7EE731927D3E90D0065C7AC /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +43,7 @@
 		F7EE72F327D3B88F0065C7AC = {
 			isa = PBXGroup;
 			children = (
+				F7EE731927D3E90D0065C7AC /* Secrets.xcconfig */,
 				F7EE72FE27D3B88F0065C7AC /* Clima */,
 				F7EE72FD27D3B88F0065C7AC /* Products */,
 			);
@@ -71,6 +75,7 @@
 		F7EE731327D3B8F60065C7AC /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				F7EE731727D3E4FB0065C7AC /* WeatherManager.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -164,6 +169,7 @@
 			files = (
 				F7EE730427D3B88F0065C7AC /* WeatherViewController.swift in Sources */,
 				F7EE730027D3B88F0065C7AC /* AppDelegate.swift in Sources */,
+				F7EE731827D3E4FB0065C7AC /* WeatherManager.swift in Sources */,
 				F7EE730227D3B88F0065C7AC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -192,6 +198,7 @@
 /* Begin XCBuildConfiguration section */
 		F7EE730E27D3B8910065C7AC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7EE731927D3E90D0065C7AC /* Secrets.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -253,6 +260,7 @@
 		};
 		F7EE730F27D3B8910065C7AC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7EE731927D3E90D0065C7AC /* Secrets.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
