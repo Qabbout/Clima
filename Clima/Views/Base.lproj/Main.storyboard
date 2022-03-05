@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="dark"/>
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
@@ -38,6 +38,7 @@
                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" placeholder="Enter City" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="LRf-hX-f4q">
                                                 <rect key="frame" x="50" y="0.0" width="274" height="40"/>
                                                 <color key="backgroundColor" systemColor="systemFillColor"/>
+                                                <color key="tintColor" systemColor="labelColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="words" returnKeyType="go"/>
                                             </textField>
@@ -49,6 +50,9 @@
                                                 </constraints>
                                                 <color key="tintColor" systemColor="labelColor"/>
                                                 <state key="normal" backgroundImage="magnifyingglass" catalog="system"/>
+                                                <connections>
+                                                    <action selector="searchPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pgN-VN-KM5"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -115,6 +119,12 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0fj-Jm-50H" secondAttribute="trailing" constant="20" id="eRN-sU-VM9"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="cityLabel" destination="qY3-KB-xAi" id="0ee-yn-MF1"/>
+                        <outlet property="conditionImageView" destination="sUe-Xh-3Ba" id="9hn-7h-gOo"/>
+                        <outlet property="searchTextField" destination="LRf-hX-f4q" id="MQ5-g1-dS4"/>
+                        <outlet property="temperatureLabel" destination="9fS-E6-SVC" id="Hk0-Cr-FmE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
