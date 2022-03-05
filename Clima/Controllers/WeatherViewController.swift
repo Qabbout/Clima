@@ -55,7 +55,10 @@ extension WeatherViewController : UITextFieldDelegate {
     
     func textFieldDidEndEditing(_ textField: UITextField) {
         
-        weatherManager.fetchWeather(city: textField.text!)
+        if let city = searchTextField.text {
+            weatherManager.fetchWeather(city: city)
+        }
+        
         searchTextField.text = ""
     }
     
