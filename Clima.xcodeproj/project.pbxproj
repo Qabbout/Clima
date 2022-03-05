@@ -31,6 +31,7 @@
 		F7EE731927D3E90D0065C7AC /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
 		F7EE731A27D3F3A10065C7AC /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
 		F7EE731C27D3F7310065C7AC /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		F7EE731E27D4084F0065C7AC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +48,7 @@
 		F7EE72F327D3B88F0065C7AC = {
 			isa = PBXGroup;
 			children = (
+				F7EE731E27D4084F0065C7AC /* README.md */,
 				F7EE731927D3E90D0065C7AC /* Secrets.xcconfig */,
 				F7EE72FE27D3B88F0065C7AC /* Clima */,
 				F7EE72FD27D3B88F0065C7AC /* Products */,
