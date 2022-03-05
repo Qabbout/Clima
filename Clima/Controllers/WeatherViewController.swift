@@ -26,7 +26,7 @@ class WeatherViewController: UIViewController {
         searchTextField.delegate = self
     }
     
-  
+    
     
 }
 
