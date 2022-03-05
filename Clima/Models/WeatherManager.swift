@@ -1,9 +1,9 @@
-//
-//  WeatherManager.swift
-//  Clima
-//
-//  Created by Abdulrahman on 3/5/22.
-//
+    //
+    //  WeatherManager.swift
+    //  Clima
+    //
+    //  Created by Abdulrahman on 3/5/22.
+    //
 
 import Foundation
 
@@ -25,21 +25,25 @@ struct WeatherManager{
             let session = URLSession(configuration: .default)
             
             let task = session.dataTask(with: url) { data, response, error in
-               
+                
                 if error != nil {
                     return
                 }
                 
                 if let safeData = data {
-                    let dataString = String(data: safeData, encoding: .utf8)!
-                    print(dataString)
+                    self.parseJson(weatherData: safeData)
+                    
                 }
             }
             task.resume()
         }
         
     }
+    
+    func parseJson(weatherData: Data){
         
+    }
+    
     
     
 }
