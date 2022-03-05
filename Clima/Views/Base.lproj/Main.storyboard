@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="dark"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
@@ -114,10 +114,10 @@
                         <constraints>
                             <constraint firstItem="oAV-Dd-xb7" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="157-4g-3ix"/>
                             <constraint firstItem="0fj-Jm-50H" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="F1R-Iw-lNg"/>
-                            <constraint firstItem="oAV-Dd-xb7" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="HRu-Qb-Rs0"/>
+                            <constraint firstItem="oAV-Dd-xb7" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="HRu-Qb-Rs0"/>
                             <constraint firstItem="0fj-Jm-50H" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="KDS-Hy-r5H"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="0fj-Jm-50H" secondAttribute="bottom" id="MnB-A0-YZ0"/>
-                            <constraint firstItem="oAV-Dd-xb7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Mpm-f9-wUf"/>
+                            <constraint firstItem="oAV-Dd-xb7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Mpm-f9-wUf"/>
                             <constraint firstAttribute="bottom" secondItem="oAV-Dd-xb7" secondAttribute="bottom" id="NDv-1d-JFa"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0fj-Jm-50H" secondAttribute="trailing" constant="20" id="eRN-sU-VM9"/>
                         </constraints>
