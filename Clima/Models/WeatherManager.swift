@@ -10,9 +10,9 @@ import Foundation
 
 struct WeatherManager{
     
-    static let apiKey = Bundle.main.object(forInfoDictionaryKey: "API_KEY") as? String
+    static let apiKey = Bundle.main.object(forInfoDictionaryKey: "API_KEY") as! String
     
-    let weatherURL = ""
+    let weatherURL = "https://api.openweathermap.org/data/2.5/weather?appid=" + apiKey + "&units=metric"
         
     
     
